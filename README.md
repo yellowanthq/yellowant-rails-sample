@@ -2,8 +2,9 @@
 
 This repository contains sample app demonstrating yellowant gem usage. This sample app is for sole purpose of introducing developers to YellowAnt API
 
-##Requirments 
+## Requirments 
 
 * [Ruby](https://www.ruby-lang.org/en/documentation/installation/) (sample apps were written with Ruby 2.2.1)
+* [Rails 5.1.4](http://rubyonrails.org/)
 * [YellowAnt Gem](https://github.com/yellowanthq/yellowant-ruby-sdk)
 
