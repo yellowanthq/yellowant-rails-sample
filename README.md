@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repository contains sample app demonstrating yellowant gem usage. This sample app is for sole purpose of introducing developers to YellowAnt API
 
-Things you may want to cover:
+##Requirments 
 
-* Ruby version
+* [Ruby](https://www.ruby-lang.org/en/documentation/installation/) (sample apps were written with Ruby 2.2.1)
+* [YellowAnt Gem](https://github.com/yellowanthq/yellowant-ruby-sdk)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
