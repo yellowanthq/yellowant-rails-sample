@@ -1,0 +1,2 @@
+class Usertracker < ApplicationRecord
+end

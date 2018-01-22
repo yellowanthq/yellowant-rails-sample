@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 
+  integration_id: 
+  invoke_name: 
+  token: MyString
+
+two:
+  user_id: 
+  integration_id: 
+  invoke_name: 
+  token: MyString
