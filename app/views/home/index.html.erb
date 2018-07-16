@@ -1,21 +1,48 @@
+<style >
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+
+
 <div class="container">
 	<div class="row justify-content-center">
 		<div >
-			<br> <h3>Welcome to New App</h3> <br>
+			<br> <h3>Welcome to your TODO list app</h3> <br>
 			<div class="row justify-content-center">
-				<%= button_to "Integrate", { :action => "red_yellowant"}, {:method => :get, }%> <br>
+				<%= button_to "+ Add Account", { :action => "red_yellowant"}, {:method => :get, }%> <br>
 			</div>
 		</div>
 	</div>
 	<div class="row justify-content-center">
 		<div>
 			<% if @accounts %>
-				<br><ul class="list-group">
-				<% @accounts.each do |account| %>
-					<li class="list-group-item">
-						<h5><%= account.invoke_name %></h3>
-					</li>
+				<br><ul class="list-group" >
+				<table style="width: 100%">
+					<tr>
+						<th><h4>Invoke name</h4></th>
+						<th><h4>Integration ID</h4></th>
+					</tr>
+					<% @accounts.each do |account| %>
+					<tr>
+						<td><h5><%= account.invoke_name %></h5></td> 
+						<td><h5><%= account.integration_id%></h5></td>
+					</tr>
+				
 				<% end %>
+				</table>
 			</ul>
 			<% end %>
 		</div>
