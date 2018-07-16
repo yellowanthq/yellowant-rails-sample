@@ -26,14 +26,14 @@ These instructions will get you started with building basic YellowAnt applicatio
 2. Click on the button "Create New Application"
 
 3. Fill the form and click on "Create Application":
-![YellowAnt Create New App](https://github.com/yellowanthq/yellowantsampledjangoapp/blob/master/docs/yellowantcreatenewapp.jpg "YellowAnt Create New App")
+![YellowAnt Create New App](https://github.com/yellowanthq/yellowant-sample-django-app/blob/master/docs/yellowant-create-new-app.jpg "YellowAnt Create New App")
      Display Name: A human readable display name for the application.
      Invoke Name: A simple single word which users can use to control this app.
      Short Description: A human readable short description
 
 4. After the application is created you will be at the application overview page. You need to update the application with more information and click on "Update Application".
-![YellowAnt Update App](https://github.com/yellowanthq/yellowantsampledjangoapp/blob/master/docs/yellowantappoverview1.jpg "YellowAnt Update App")
-![YellowAnt Update App](https://github.com/yellowanthq/yellowantsampledjangoapp/blob/master/docs/yellowantappoverview2.jpg "YellowAnt Update App")
+![YellowAnt Update App](https://github.com/yellowanthq/yellowant-sample-django-app/blob/master/docs/yellowant-app-overview-1.jpg "YellowAnt Update App")
+![YellowAnt Update App](https://github.com/yellowanthq/yellowant-sample-django-app/blob/master/docs/yellowant-app-overview-2.jpg "YellowAnt Update App")
      API URL: The endpoint through which YellowAnt will communicate with this app.
      Installation Website: The URL of your app where users will be able to begin integrating their YellowAnt accounts with this app.
      Redirect URL: The endpoint at which YellowAnt will send the OAuth codes for user authentication.
@@ -59,8 +59,8 @@ These instructions will get you started with building basic YellowAnt applicatio
     5. deleteitem(title: varchar): delete a todo item
          Title [int, required]: id of the todo item
 
-![YellowAnt Create New Function](https://github.com/yellowanthq/yellowantsampledjangoapp/blob/master/docs/yellowantcreatenewfunction.jpg "YellowAnt Create New Function")
-![YellowAnt Create New Input Arg](https://github.com/yellowanthq/yellowantsampledjangoapp/blob/master/docs/yellowantcreatenewarg.jpg "YellowAnt Create New Input Arg")
+![YellowAnt Create New Function](https://github.com/yellowanthq/yellowant-sample-django-app/blob/master/docs/yellowant-create-new-function.jpg "YellowAnt Create New Function")
+![YellowAnt Create New Input Arg](https://github.com/yellowanthq/yellowant-sample-django-app/blob/master/docs/yellowant-create-new-arg.jpg "YellowAnt Create New Input Arg")
 ```
 Example of how to create the function, createitem, which has two input arguments, title and description:
 
